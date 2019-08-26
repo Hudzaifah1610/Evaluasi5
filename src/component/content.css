@@ -1,0 +1,118 @@
+.all {
+  background: yellow;
+}
+
+.navbar {
+  background: linear-gradient(to right, rgb(255, 72, 0), #fa4831);
+  border-bottom: 3px solid rgb(255, 168, 7);
+}
+
+.button {
+  background: rgb(255, 168, 7);
+  margin: 5px;
+  border: 1px solid black;
+}
+
+.button:hover {
+  background: rgb(241, 198, 6);
+  color: red;
+}
+
+.jumbotron {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./foto.jpg);
+  background-size: cover;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  margin-top: 200px;
+  font-size: 70px;
+  font-family: fantasy;
+  color: orangered;
+  text-shadow: 5px 2px 2px yellow;
+}
+
+.jumbotron h1:hover {
+  color: transparent;
+  text-shadow: none;
+  cursor: pointer;
+}
+
+.profil {
+  width: 100%;
+  height: 100vh;
+  background-image: url(http://images6.fanpop.com/image/photos/34500000/Orange-Wallpaper-orange-34512787-1920-1080.jpg);
+  margin-top: -32px;
+}
+
+.footer {
+  width: 100%;
+  height: 100vh;
+  background-image: url(http://images6.fanpop.com/image/photos/34500000/Orange-Wallpaper-orange-34512787-1920-1080.jpg);
+}
+
+.footer img {
+  width: 50px;
+  margin-top: 275px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.footer img:hover {
+  margin-top: 260px;
+}
+
+.a {
+  margin-left: 550px;
+}
+
+.footer p {
+  margin-top: 50px;
+  text-align: center;
+  color: blue;
+}
+
+.header2,
+.header3 {
+  padding: 30px;
+  width: 100%;
+  height: 50px;
+  background: rgb(255, 73, 1);
+  border-top: 10px solid rgb(255, 168, 7);
+}
+
+.header2 h4,
+.header3 h4 {
+  text-align: center;
+  color: aliceblue;
+  margin-top: -20px;
+  font-size: 30px;
+}
+
+.header2 h4:hover {
+  color: blue;
+}
+
+.header3 h4:hover {
+  color: blue;
+}
+
+h5 {
+  text-align: justify;
+  margin: 100px 300px 0 300px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.profil img {
+  width: 200px;
+  border-radius: 150px;
+  margin: 150px 0 0 300px;
+}
+
+.profil .text {
+  text-align: center;
+  margin-top: -200px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
